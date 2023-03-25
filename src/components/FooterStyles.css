@@ -1,0 +1,50 @@
+.footer{
+    width: 100%;
+    padding: 5rem 0;
+    background-color: rgba(19, 19, 19,0.8);
+}
+.footer-container {
+width: 90%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+}
+.left{
+    height:  100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.address {
+    display: flex;
+    margin-bottom: 0.8rem;
+  
+  
+}
+.address p {
+    line-height: 30px;
+}
+.phone{
+    padding-bottom: 1rem;
+}
+.email {
+   
+}
+.right{
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+   
+}
+@media screen and (max-width:640px) {
+    .footer-container {
+           display: grid;
+           grid-template-columns: 1fr;  
+        }
+        .right{
+            padding-top: 6rem;
+            padding-left:2rem ;
+        }
+}
